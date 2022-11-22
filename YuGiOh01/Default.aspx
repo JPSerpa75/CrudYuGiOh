@@ -29,6 +29,10 @@
                 <a href="~/Paginas/Formularios/FrmUsuario.aspx" runat="server" id="linkRegistrar">Registra-se</a>
             </div>
             <asp:Button Text="Entrar" id="btnEntrar" runat="server" class="btn btn-primary w-100" OnClick="btnEntrar_Click" />
+
+            <div class="mb-3 text-center">
+                <label id="lblMensagem" runat="server"></label>
+            </div>
         </div>
     </form>
 
